@@ -212,7 +212,7 @@ on:
       openwrt_kernel:
         description: "2、请选择内核版本"
         required: true
-        default: "6.6.y"
+        default: "5.15.y"
         type: choice
         options:
           - 5.15.y        
@@ -245,7 +245,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
