@@ -6,7 +6,7 @@ on:
       openwrt_board:
         description: "1、请选择设备型号"
         required: true
-        default: "s905d_s905x3_s912_s922x-ct2000"
+        default: "s905l3b-e900v22e"
         type: choice
         options:
           - a311d-oes_s922x-oes-plus_wxy-oect
@@ -230,7 +230,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
