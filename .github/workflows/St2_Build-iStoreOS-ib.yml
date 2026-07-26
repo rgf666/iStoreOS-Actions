@@ -216,7 +216,7 @@ on:
         type: choice
         options:
           - 5.15.211        
-          - 6.6.y
+          - 6.6.144
           - 6.12.y
           - 6.18.y
       auto_kernel:
