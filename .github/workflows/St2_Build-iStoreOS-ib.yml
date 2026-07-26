@@ -215,6 +215,7 @@ on:
         default: "6.6.y"
         type: choice
         options:
+          - 5.15.y        
           - 6.6.y
           - 6.12.y
           - 6.18.y
