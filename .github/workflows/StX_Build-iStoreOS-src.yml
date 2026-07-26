@@ -212,9 +212,10 @@ on:
       openwrt_kernel:
         description: "2、请选择内核版本"
         required: true
-        default: "6.6.y"
+        default: "5.15.y"
         type: choice
         options:
+          - 5.15.y    
           - 6.6.y
           - 6.12.y
           - 6.18.y
